@@ -1,0 +1,115 @@
+:root {
+    --main-bg-color: white;
+    --secondary-color: #FFF5EB;
+    --main-text-color: #0F1A2E;
+
+    --cream-color: #F7EBE2;
+    --light-cream-color: #FFF5EB;
+}
+
+html {
+    font-size: 18px;
+    overflow-y: scroll;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    line-height: 1.9rem;
+    overflow-x: hidden;
+    padding: 0;
+    /* background: url('assets/bg.svg') no-repeat top;
+    background-size: 100%;  */
+}
+
+.text-color-main {
+    color: var(--main-text-color);
+}
+
+.text-color-light {
+    color: var(--cream-color);
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.front-page {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: var(--main-text-color);
+}
+
+.font-playfair {
+    font-family: 'Playfair', 'Times New Roman', Times, serif;
+}
+
+.bg-svg {
+    background: url('assets/bg.svg') no-repeat top;
+    background-size: cover;
+}
+
+.bg-color-dark {
+    background-color: var(--main-text-color);
+}
+
+.bg-color-cream {
+    background-color: var(--cream-color);
+}
+
+/* CSS Bootstrap Overrides */
+
+.btn-outline-dark {
+    border: 2px solid var(--main-text-color);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--main-text-color);
+    color: white;
+}
+
+.card {
+    border: 0px;
+    background-size: cover;
+    min-height: 500px;
+    max-height: 600px;
+}
+
+.card:hover {
+    background-size: 200%;
+}
+
+.fixed-top.scrolled {
+    background-color: white;
+    transition: background-color 200ms linear;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.075);
+  }
+
+
+a.contact-btn {
+    transition: all 0.15s ease-in-out;
+}
+
+a.contact-btn img {
+    height: 40px;
+    width: 40px;
+}
+
+a.contact-btn:hover {
+    opacity: 0.3;
+}
+
+a.telephone {
+    background-color: var(--main-text-color);
+    transition: all 0.15s ease-in-out;
+}
+
+
+/* nav .container-md {
+    max-width: 1600px;
+} */
